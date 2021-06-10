@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- To Stop Zoom-in-out -->
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css" integrity="sha512-ksbpl5EUb4HLEKUNItsPMT/Ih6KcISE53GbYOu3xFUVYvTSSX5AJxTI2aigdQm9uNSkSsRMHsSGNKppkt691lw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kerdant</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/card.css">
+    <link rel="stylesheet" href="./assets/css/icon.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body id="webBody" onload="bodyload()">
+
+    <!-- preLoader -->
+    <div class="loader-container" id="pre-loader">
+        <div class="loader">
+            <img src="assets/images/preloader.gif" alt="Loading....">
+            <h1 class="headingText">Loading.....</h1>
+        </div>
+    </div>
+    <!-- preLoader -->
+
+    <section class="main">
+        <video class="bg-vid" preload="none" poster="assets/images/preloadimg.png" autoplay muted loop>
+            <source src="assets/videos/dots.mp4" type="video/mp4">
+        </video>
+
+        <!-- sec 1 Hero sec start-->
+        <section class="hero-bg-img">
+            <div class="container pt-md-5 pt-2 pl-3 pr-3 ">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-md-6 ">
+                        <div class="logo mr-auto">
+                            <a href=""><img src="assets/images/logo.png" alt="Kerdant"></a>
+                        </div>
+                        <div class="hmbrg-icon ml-auto mt-2 d-block d-md-none ">
+                            <img src="assets/images/icon-menu.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <nav class="navs d-none d-md-block">
+                            <ul>
+
+                                <li data-aos="fade-down"><a class="nav1" href="">Entrar</a>
+                                </li>
+                                <li data-aos="fade-right"><a class="nav2" href="">Cadastrar </a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <!-- mobile-menu -->
+                    <div class="mb-menu-wrapper">
+                        <div class="row  justify-content-between align-items-center">
+                            <div class="mb-logo col-6  ">
+                                <img src="assets/images/logo.png" alt="Kerdant">
+                            </div>
+                            <div class="col-6 text-right pr-4">
+                                <img class="mb-close-icon" src="assets/images/close.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-12 mb-nav">
+                                <nav>
+                                    <ul>
+                                        <li><a href="">Entrar</a></li>
+                                        <li><a href="">Cadastrar </a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- mobile-menu -->
+                </div>
+                <div class="row row-cols-1">
+                    <div class="col-md-12  hero-text-sec">
+                        <h1 data-aos="zoom-out" data-aos-duration="600">
+                            Sua porta de entrada <br/> para o mundo <br/> cripto
+                        </h1>
+                        <br />
+                        <h5 data-aos="fade-left" data-aos-duration="700" style="margin-bottom: 0 !important;">A maneira mais simples de operar criptomoedas </h5>
+
+                        <a href="" class="hero-btn btn" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
+                            <span class="txt">Começar</span>
+                            <span class="round"><i class="fa fa-chevron-right"></i></span>
+                        </a>
+                        <!-- <div class="gogle-play-icons-sec">
+                            <a href="" target="_blank"><img src="assets/images/app-store-play.png" alt="Disponible en Google Play"></a>
+                            <a href="" target="_blank"><img src="assets/images/app-store.png"" alt="Disponible en el App Store"></a>
+                        </div> -->
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- sec 1 Hero sec End-->
+
+        <!-- sec 2 start -->
+        <section id="sec2">
+            <div class="container sec-2-content">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 data-aos="zoom-in" class="h1 headingText">Nosso headquarter
+                        </h1>
+                        <div class="p-3">
+                            <video class="inner-vid w-100" preload="none" poster="assets/images/logo.png" autoplay muted loop controls>
+                                <source src="assets/videos/kerdant_video.mp4" type="video/mp4">
+
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sec 2 End -->
+
+    </section>
+
+    <!-- sec 3  -->
+    <section id="sec3">
+        <div class="container">
+            <div class="row" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="70">
+                <div class="col-md-4 mt-auto mb-auto">
+                    <div class="sec-icons-wrapper">
+                        <ul>
+                            <li data-aos="fade-right" data-aos-duration="800"><i class="fa fa-globe" aria-hidden="true"></i>
+                                <p>Aceito Mundialmente </p>
+                            </li>
+                            <li data-aos="fade-right" data-aos-duration="1000"><i class="fas fa-money-check"></i>
+                                <p>Cashback Cripto
+                                </p>
+                            </li>
+                            <li data-aos="fade-right" data-aos-duration="600"><i class="fas fa-percentage"></i>
+                                <p>Taxa ZERO de Manutenção</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="atm-card-wrapper">
+                        <img src="assets/images/card1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="py-1 px-1  ml-auto pl-1  " style="color: rgb(233, 255, 249);">
+                        <h1 class="headingText" style="text-transform: uppercase !important">KERDANT BLACK </h1>
+                        <br/>
+                        <p style="text-indent: 30px ">Temos um serviço diferenciado para um grupo seleto que se enquadra como Kerdant Black. O que eu preciso fazer para se tornar Black? Avaliamos não somente o montante depositado, mas também o volume de movimentação da conta. Com
+                            isso, selecionamos alguns clientes e classificamos como Kerdant Black.
+                            <hr style="background-color: #37d6c9;  width: 40%;" />
+                        </p>
+                        <div class="sec3-right-list-wrap">
+
+                            <ol>
+                                <li><span><i class="fa fa-arrow-right"></i></span>Cartão Kerdant BLACK
+                                </li>
+                                <li><span><i class="fa fa-arrow-right"></i></span>Payout e condições exclusivas
+                                </li>
+                                <li><span><i class="fa fa-arrow-right"></i></span>Gerente de conta
+                                </li>
+                                <li><span><i class="fa fa-arrow-right"></i></span>Suporte VIP
+                                </li>
+                                <li><span><i class="fa fa-arrow-right"></i></span>Atendimento prioritário
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sec 3  -->
+
+    <!-- sec 4 card -->
+    <section class="section-features ">
+        <div class="container-lg container-fluid">
+            <h1 class="h1 text-white text-center headingText  m-auto" data-aos="zoom-out" data-aos-duration="600" data-aos-delay="50">Sobre o mercado</h1>
+            <div class="row py-0 px0  pt-2 pt-md-5">
+                <div class=" col-md-3 col-sm-6 col-xs-12 mt-3">
+                    <div class="feature-box" data-aos="fade-up" data-aos-delay="40" data-aos-duration="600">
+                        <i class="feature-box__icon fas fa-globe-americas"></i>
+                        <h3 class="feature-box-heading">24/7</h3>
+                        <p class="feature-box__para">O Mercado cripto não dorme, nós da KERDANT também não. por isso, contamos com atendimento 24 horas por dia/ 7 dias na semana e personalizado para cada cliente.</p>
+                    </div>
+                </div>
+
+                <div class=" col-md-3 col-sm-6 col-xs-12 mt-3">
+                    <div class="feature-box" data-aos="fade-down" data-aos-delay="50" data-aos-duration="700">
+                        <i class="feature-box__icon"> <img src="assets/images/chip.svg" alt=""></i>
+                        <h3 class="feature-box-heading">Tecnologia Disruptiva</h3>
+                        <p class="feature-box__para">Você sabia que os bancos e corretoras tem acesso a dados pessoais e financeiros de seus clientes? No mercado cripto, você é quem controla seus dados, eliminando qualquer intermediário.</p>
+                    </div>
+                </div>
+
+                <div class=" col-md-3 col-sm-6 col-xs-12 mt-3">
+                    <div class="feature-box" data-aos="zoom-in" data-aos-delay="60" data-aos-duration="800">
+                        <i class="feature-box__icon "><img src="assets/images/electro.svg" alt=""></i>
+                        <h3 class="feature-box-heading">Descentralização </h3>
+                        <p class="feature-box__para">Já imaginou um país sem governo? Isso mesmo, esse processo é possível pela distribuição do poder que antes era de uma autoridade central para suas mãos. Nenhuma transação passa por qualquer tipo de órgão regulador.
+                        </p>
+                    </div>
+                </div>
+
+                <div class=" col-md-3 col-sm-6 col-xs-12 mt-3">
+                    <div class="feature-box" data-aos="zoom-in" data-aos-delay="70" data-aos-duration="900">
+                        <i class=" feature-box__icon fas fa-chart-line "></i>
+                        <h3 class="feature-box-heading ">Valorização </h3>
+                        <p class="feature-box__para ">Você sabia que se você tivesse investido 100 dólares no ETH em 2020, hoje você teria um lucro de 2300%? Isso mesmo, 100 dólares virariam 2300 dólares.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- sec 4 card -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container" style="padding-top: 80px; padding-bottom: 8px;">
+            <div class="row">
+
+                <div class="left__column col-md-8 col-sm-12">
+                    <div class="ft_left__content">
+                        <h3>Com você explorando a nova economia digital
+                        </h3>
+                        <div>
+                            <a class="ft_button --revert mb-3" href="">Cadastrar</a>
+                            <a class="ft_button --revert --outline " href="">
+                                Entrar</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 ">
+                    <div class="row right_column">
+
+                        <div class="--title ">Institucional</div>
+
+                        <ul>
+
+                            <li><a href="" style="text-transform: uppercase !important;">FAQ
+                            </a></li>
+                            <li><a href="">Sobre nós
+                            </a></li>
+                            <li><a href="" target="_blank ">Termos de uso </a></li>
+                            <li><a href="">Politicas de privacidade </a></li>
+                            <li><a href="">Termos e condiçōes
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="col-11  ml-auto mr-auto  bg-white" style="height: 1px; margin-top: 80px" />
+                <div class="social__content col-md-12 mt-3" style="margin-bottom: 0px;">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="disclaimer__content col-md-4 pl-4 ">
+                            <p>
+                                &copy; 2020 – 2021 Kerdant
+                            </p>
+
+                            <p>Kerdant. Todos os direitos reservados</p>
+
+                        </div>
+                        <div class="col-md-4 text-center d-flex justify-content-center align-items-center">
+                            <a class="footer-social-btn" href="" target="_blank "><i class="fab fa-facebook-f"></i></a>
+                            <a class="footer-social-btn" href="" target="_blank "><i class="fab fa-twitter"></i></a>
+                            <a class="footer-social-btn" href="" target="_blank "><i class="fab fa-instagram"></i></a>
+                            <a class="footer-social-btn" href=" " target="_blank "><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="col-md-4 text-right pr-4 d-flex align-items-center justify-content-end"> <img class="footer-logo" src="assets/images/logo.png" alt="Kerdant ">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js "></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            offset: 200,
+            once: true,
+        })
+    </script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js "></script>
+
+</body>
+
+</html>
